@@ -27,11 +27,10 @@ export function Navbar() {
             <Link to="/community" className="nav-link">Community</Link>
             <Link to="/contact" className="nav-link">Contact</Link>
             <Link to="/blog" className="nav-link">Blog</Link>
-            <ThemeToggle />
+            
           </div>
 
           <div className="md:hidden flex items-center">
-            <ThemeToggle />
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="ml-2 p-2 rounded-md text-gray-700 dark:text-gray-200"

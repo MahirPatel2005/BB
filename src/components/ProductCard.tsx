@@ -1,14 +1,13 @@
-import React from 'react';
-import { ArrowRight } from 'lucide-react';
 
+import React from 'react';
 interface ProductCardProps {
   name: string;
   image: string;
   description: string;
-  link: string;
+  price: string;
 }
 
-export function ProductCard({ name, image, description, link }: ProductCardProps) {
+export function ProductCard({ name, image, description, price }: ProductCardProps) {
   return (
     <div className="card group">
       <img
@@ -19,13 +18,7 @@ export function ProductCard({ name, image, description, link }: ProductCardProps
       <div className="p-4">
         <h3 className="text-xl font-semibold mb-2">{name}</h3>
         <p className="text-gray-600 dark:text-gray-300 mb-4">{description}</p>
-        <a
-          href={link}
-          className="inline-flex items-center text-primary hover:text-primary-dark transition-colors"
-        >
-          Learn More
-          <ArrowRight className="ml-2 w-4 h-4" />
-        </a>
+        <p className="text-lg font-semibold text-primary">{price}</p>
       </div>
     </div>
   );
