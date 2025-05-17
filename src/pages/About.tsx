@@ -47,7 +47,7 @@ export function About() {
                 alt="Founder" 
                 className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
               />
-              <h3 className="text-xl font-semibold mb-2 text-center">Rajesh Kumar</h3>
+              <h3 className="text-xl font-semibold mb-2 text-center">Meghana Manjunath</h3>
               <p className="text-gray-600 dark:text-gray-300 text-center">Founder & CEO</p>
               <p className="mt-4 text-gray-600 dark:text-gray-300">
                 With over 20 years of experience in traditional cooking, Rajesh brings his 
@@ -60,7 +60,7 @@ export function About() {
                 alt="Co-founder" 
                 className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
               />
-              <h3 className="text-xl font-semibold mb-2 text-center">Priya Sharma</h3>
+              <h3 className="text-xl font-semibold mb-2 text-center">Sheethal Subhash </h3>
               <p className="text-gray-600 dark:text-gray-300 text-center">Co-founder & COO</p>
               <p className="mt-4 text-gray-600 dark:text-gray-300">
                 Priya's background in food technology and business operations ensures that 
