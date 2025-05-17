@@ -71,14 +71,11 @@ export function Contact() {
             <div className="mt-8">
               <h3 className="text-xl font-semibold mb-4">Connect With Us</h3>
               <div className="flex space-x-4">
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-primary">
+                <a href="https://www.facebook.com/Butterbattergo" className="text-gray-600 dark:text-gray-300 hover:text-primary">
                   Facebook
                 </a>
                 <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-primary">
                   Instagram
-                </a>
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-primary">
-                  Twitter
                 </a>
               </div>
             </div>

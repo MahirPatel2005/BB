@@ -26,8 +26,6 @@ export function Navbar() {
             <Link to="/stores" className="nav-link">Stores</Link>
             <Link to="/community" className="nav-link">Community</Link>
             <Link to="/contact" className="nav-link">Contact</Link>
-            <Link to="/blog" className="nav-link">Blog</Link>
-            
           </div>
 
           <div className="md:hidden flex items-center">

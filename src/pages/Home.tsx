@@ -155,14 +155,11 @@ export function Home() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="section-title mb-8">Connect With Us</h2>
           <div className="flex justify-center space-x-6">
-            <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-primary">
+            <a href="https://www.facebook.com/Butterbattergo" className="text-gray-600 dark:text-gray-300 hover:text-primary">
               Facebook
             </a>
             <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-primary">
               Instagram
-            </a>
-            <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-primary">
-              Twitter
             </a>
           </div>
         </div>

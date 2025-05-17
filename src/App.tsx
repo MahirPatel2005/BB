@@ -27,7 +27,6 @@ function App() {
               <Route path="/stores" element={<Stores />} />
               <Route path="/community" element={<Community />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="/blog" element={<Blog />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
