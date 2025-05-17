@@ -11,11 +11,21 @@ export function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission
-    console.log('Form submitted:', formData);
+
+    const { name, email, subject, message } = formData;
+
+    const mailtoLink = `mailto:community@butterbatter.com?subject=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\n\n${message}`
+    )}`;
+
+    window.location.href = mailtoLink;
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
       ...prev,
@@ -32,14 +42,16 @@ export function Contact() {
           {/* Contact Information */}
           <div>
             <h2 className="text-2xl font-bold mb-6">Get in Touch</h2>
-            
+
             <div className="space-y-6">
               <div className="card p-6">
                 <div className="flex items-center">
                   <Phone className="w-6 h-6 text-primary mr-4" />
                   <div>
                     <h3 className="font-semibold mb-1">Phone</h3>
-                    <p className="text-gray-600 dark:text-gray-300">+91 98765 43210</p>
+                    <p className="text-gray-600 dark:text-gray-300">
+                      +91 98765 43210
+                    </p>
                   </div>
                 </div>
               </div>
@@ -49,7 +61,9 @@ export function Contact() {
                   <Mail className="w-6 h-6 text-primary mr-4" />
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
-                    <p className="text-gray-600 dark:text-gray-300">info@butterbatter.com</p>
+                    <p className="text-gray-600 dark:text-gray-300">
+                      info@butterbatter.com
+                    </p>
                   </div>
                 </div>
               </div>
@@ -71,10 +85,16 @@ export function Contact() {
             <div className="mt-8">
               <h3 className="text-xl font-semibold mb-4">Connect With Us</h3>
               <div className="flex space-x-4">
-                <a href="https://www.facebook.com/Butterbattergo" className="text-gray-600 dark:text-gray-300 hover:text-primary">
+                <a
+                  href="https://www.facebook.com/Butterbattergo"
+                  className="text-gray-600 dark:text-gray-300 hover:text-primary"
+                >
                   Facebook
                 </a>
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-primary">
+                <a
+                  href="#"
+                  className="text-gray-600 dark:text-gray-300 hover:text-primary"
+                >
                   Instagram
                 </a>
               </div>
@@ -87,7 +107,10 @@ export function Contact() {
             <form onSubmit={handleSubmit} className="card p-6">
               <div className="space-y-4">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                  <label
+                    htmlFor="name"
+                    className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1"
+                  >
                     Name
                   </label>
                   <input
@@ -102,7 +125,10 @@ export function Contact() {
                 </div>
 
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                  <label
+                    htmlFor="email"
+                    className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1"
+                  >
                     Email
                   </label>
                   <input
@@ -117,7 +143,10 @@ export function Contact() {
                 </div>
 
                 <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                  <label
+                    htmlFor="subject"
+                    className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1"
+                  >
                     Subject
                   </label>
                   <input
@@ -132,7 +161,10 @@ export function Contact() {
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                  <label
+                    htmlFor="message"
+                    className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1"
+                  >
                     Message
                   </label>
                   <textarea
