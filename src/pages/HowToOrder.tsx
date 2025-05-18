@@ -54,14 +54,14 @@ export function HowToOrder() {
               </p>
               <a href="/stores" className="btn-primary inline-block">Find Nearest Store</a>
             </div>
-            <div className="card p-6">
+            {/* <div className="card p-6">
               <h3 className="text-xl font-semibold mb-4">Subscribe & Save</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
                 Subscribe to regular deliveries and get 10% off on all orders. Choose weekly 
                 or monthly deliveries.
               </p>
               <button className="btn-primary">Subscribe Now</button>
-            </div>
+            </div> */}
           </div>
         </section>
 

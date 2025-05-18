@@ -50,7 +50,7 @@ export function About() {
               <h3 className="text-xl font-semibold mb-2 text-center">Meghana Manjunath</h3>
               <p className="text-gray-600 dark:text-gray-300 text-center">Founder & CEO</p>
               <p className="mt-4 text-gray-600 dark:text-gray-300">
-                With over 20 years of experience in traditional cooking, Rajesh brings his 
+                With over 20 years of experience in traditional cooking, Meghana Manjunath brings his 
                 family's secret recipes and passion for authentic flavors to Butter Batter.
               </p>
             </div>
@@ -63,7 +63,7 @@ export function About() {
               <h3 className="text-xl font-semibold mb-2 text-center">Sheethal Subhash </h3>
               <p className="text-gray-600 dark:text-gray-300 text-center">Co-founder & COO</p>
               <p className="mt-4 text-gray-600 dark:text-gray-300">
-                Priya's background in food technology and business operations ensures that 
+                Sheethal Subhash's background in food technology and business operations ensures that 
                 we maintain the highest quality standards while scaling our operations.
               </p>
             </div>
@@ -75,14 +75,23 @@ export function About() {
           <h2 className="text-2xl font-bold mb-6">Our Journey</h2>
           <div className="card p-8">
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              What started as a small operation in our grandmother's kitchen has grown into 
-              a beloved brand trusted by thousands of families. Our journey began with a 
-              simple mission: to make authentic South Indian cooking accessible to everyone.
+              "A Taste of Tradition: From Grandma's Kitchen to Yours"
+               Once upon a time in a small village nestled in the heart of South India, there lived a wise and seasoned chef named Shalini Sundar (grandma). Her culinary prowess was renowned far and wide, especially for her secret recipes of dose and idli batters. Her kitchen was a hub of warmth, laughter, and the unmistakable aroma of freshly made doses and idlis.
+
+               Word of grandma’s delectable creations reached the bustling city, where a young entrepreneur named Meghana Manjunath was searching for the perfect venture to bring the flavors of her childhood to the modern world. Intrigued by the tales of grandma’s kitchen, Meghana embarked on a journey to the village, eager to learn the art of crafting the perfect dose and idli batters.
+
+               Under grandma’s guidance, Meghana discovered the magic of selecting the finest ingredients, the precise proportions, and the art of fermentation that gave the batters their unique taste and texture. The recipes had been passed down through generations, and Meghana felt a deep sense of responsibility to share this culinary heritage with the world.
+
             </p>
             <p className="text-gray-600 dark:text-gray-300">
-              Today, we serve customers across multiple cities, but our commitment to quality 
-              and tradition remains unchanged. Every batch of batter is still prepared with 
-              the same care and attention to detail as it was in our grandmother's kitchen.
+              With Shalini’s blessings and the secret recipes in hand, Meghana returned to the Bengaluru city and founded "Butter Batter” in 2021 with her. The mission was clear – to bring the authentic flavors of South Indian doses and idlis to kitchens around the world, just as they had been enjoyed for centuries in grandma’s village.
+
+The journey of Butter Batter was not just about selling batters; it was a celebration of tradition, a tribute to the timeless recipes that had been perfected over generations. Each pack of dose and idli batter was a piece of Shalini’s legacy, carefully crafted to transport customers to the heart of South India with every bite.
+
+The batters were not just products; they were stories – stories of grandma’s kitchen, stories of a vibrant culture, and stories of the love and care that went into every batch. Customers didn't just buy dose and idli batters from Butter Batter; they became a part of a culinary journey that connected them to the rich heritage of South India. The aroma of doses sizzling on the griddle and the softness of idlis became more than just a meal – it was an experience, a connection to the past that enriched the present.
+
+And so, the story of Butter Batter continues, inviting people from all walks of life to savor the magic of tradition, one dose and idli at a time. Because at Butter Batter, it's not just about selling batters; it's about sharing a piece of South India's heart and soul with the world.
+
             </p>
           </div>
         </section>
