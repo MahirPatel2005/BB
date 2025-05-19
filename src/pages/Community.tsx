@@ -32,14 +32,6 @@ export function Community() {
               </p>
             </div>
             <div className="card p-6 text-center">
-              <Utensils className="w-12 h-12 mx-auto mb-4 text-primary" />
-              <h3 className="text-xl font-semibold mb-4">Cooking Classes</h3>
-              <p className="text-gray-600 dark:text-gray-300">
-                Free cooking workshops for underprivileged youth to help them develop 
-                valuable skills.
-              </p>
-            </div>
-            <div className="card p-6 text-center">
               <Users className="w-12 h-12 mx-auto mb-4 text-primary" />
               <h3 className="text-xl font-semibold mb-4">Community Support</h3>
               <p className="text-gray-600 dark:text-gray-300">

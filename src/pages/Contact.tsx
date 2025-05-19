@@ -50,7 +50,7 @@ export function Contact() {
                   <div>
                     <h3 className="font-semibold mb-1">Phone</h3>
                     <p className="text-gray-600 dark:text-gray-300">
-                      +91 98765 43210
+                      +91 88923 24272
                     </p>
                   </div>
                 </div>
@@ -74,8 +74,8 @@ export function Contact() {
                   <div>
                     <h3 className="font-semibold mb-1">Head Office</h3>
                     <p className="text-gray-600 dark:text-gray-300">
-                      100 Feet Road, Indiranagar<br />
-                      Bangalore - 560038
+                      CENTRAL KITCHEN AND MAIN BRANCH, 23, 1st Floor, Balaji Complex, Mantri Tranquil, Apartment Road, A Block, Subramanyapura,<br />
+                      Bangalore - 560061
                     </p>
                   </div>
                 </div>

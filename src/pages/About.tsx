@@ -23,15 +23,13 @@ export function About() {
             <div className="card p-6">
               <h3 className="text-xl font-semibold mb-4">Our Mission</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                To preserve and share authentic South Indian culinary traditions while making 
-                home cooking convenient and delicious for everyone.
+                To offer Authentic Udupi style Idli & Dose Batters without Preservatives, Soda and Coloring.
               </p>
             </div>
             <div className="card p-6">
               <h3 className="text-xl font-semibold mb-4">Our Vision</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                To become the most trusted name in fresh, traditional Indian batters and 
-                chutneys across the country.
+                To be a household name meeting daily breakfast needs of all sections of society.
               </p>
             </div>
           </div>
@@ -101,21 +99,35 @@ And so, the story of Butter Batter continues, inviting people from all walks of 
           <h2 className="text-2xl font-bold mb-6">Why Choose Butter Batter?</h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="card p-6">
-              <h3 className="text-xl font-semibold mb-4">Traditional Recipe</h3>
+              <h3 className="text-xl font-semibold mb-4">Quality Ingredients</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Authentic Udupi recipes passed down through generations.
+                We believe that great taste starts with great ingredients. Our batters are made from the finest rice, urad dal, and a blend of authentic spices to ensure an authentic South Indian taste in every bite. 100% traditional and stone grinded.
               </p>
             </div>
             <div className="card p-6">
-              <h3 className="text-xl font-semibold mb-4">Fresh Daily</h3>
+              <h3 className="text-xl font-semibold mb-4">Preservative/Coloring-Free</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Fresh batters prepared daily using premium ingredients.
+                Say goodbye to artificial preservatives or coloring! Our batters are made fresh and delivered to your doorstep without any added preservatives, guaranteeing a wholesome and healthy dining experience.
               </p>
             </div>
             <div className="card p-6">
-              <h3 className="text-xl font-semibold mb-4">Quality Assured</h3>
+              <h3 className="text-xl font-semibold mb-4">Convenient Packaging</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Rigorous quality control and hygienic preparation.
+                Our batters are conveniently packaged in High quality food grade paper containers to suit your lifestyle. Whether you need a quick breakfast solution or a family feast, our packaging ensures ease of use and storage.
+
+              </p>
+            </div>
+            <div className="card p-6">
+              <h3 className="text-xl font-semibold mb-4">Expertly Fermented</h3>
+              <p className="text-gray-600 dark:text-gray-300">
+                Achieving the perfect balance of fermentation is an art, and we've mastered it. Our batters undergo a carefully monitored fermentation process (No Soda) to ensure optimal taste and texture.
+              </p>
+            </div>
+            <div className="card p-6">
+              <h3 className="text-xl font-semibold mb-4">Healthier</h3>
+              <p className="text-gray-600 dark:text-gray-300">
+                Healthier and easier on your gut. Only RO Purified water used.
+
               </p>
             </div>
           </div>
