@@ -13,7 +13,7 @@ export function Home() {
     },
     {
       name: 'Crispy Dosa Mix',
-      image: 'https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?auto=format&fit=crop&w=800',
+      image: 'https://i.pinimg.com/originals/00/07/8c/00078c3a5782b1367a6cdfcc03f710a9.jpg',
       description: 'Traditional dosa batter for crispy, golden browns dosas.',
       link: '/products#dosa',
     },

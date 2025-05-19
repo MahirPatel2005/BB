@@ -4,36 +4,6 @@ import { MapPin, Phone, Clock } from 'lucide-react';
 export function Stores() {
   const stores = [
     {
-      name: 'Butter Batter - Indiranagar',
-      address: '100 Feet Road, Indiranagar, Bangalore - 560038',
-      phone: '+91 98765 43210',
-      hours: 'Mon-Sun: 6:00 AM - 9:00 PM',
-      coordinates: {
-        lat: 12.9784,
-        lng: 77.6408,
-      },
-    },
-    {
-      name: 'Butter Batter - Jayanagar',
-      address: '4th Block, Jayanagar, Bangalore - 560041',
-      phone: '+91 98765 43211',
-      hours: 'Mon-Sun: 6:00 AM - 9:00 PM',
-      coordinates: {
-        lat: 12.9399,
-        lng: 77.5827,
-      },
-    },
-    {
-      name: 'Butter Batter - Koramangala',
-      address: '5th Block, Koramangala, Bangalore - 560095',
-      phone: '+91 98765 43212',
-      hours: 'Mon-Sun: 6:00 AM - 9:00 PM',
-      coordinates: {
-        lat: 12.9352,
-        lng: 77.6245,
-      },
-    },
-    {
       name: 'CENTRAL KITCHEN AND MAIN BRANCH',
       address: '23, 1st Floor, Balaji Complex, MANTRI TRANQUIL, Apartment Road, A Block, Subramanyapura, Bengaluru - 560061.',
       phone: '+91 88923 24272',
