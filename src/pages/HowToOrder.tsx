@@ -79,8 +79,7 @@ export function HowToOrder() {
             <div className="card p-6">
               <h3 className="text-xl font-semibold mb-2">What's the shelf life?</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Our batters stay fresh for 3-4 days when refrigerated. For best results, 
-                use within 2 days of delivery.
+                Our batters stay fresh for 3-4 days when refrigerated. For best results, use within 3 days of delivery.
               </p>
             </div>
             <div className="card p-6">
@@ -88,13 +87,6 @@ export function HowToOrder() {
               <p className="text-gray-600 dark:text-gray-300">
                 Yes, we have a minimum order value of ₹200 for free delivery. Orders below 
                 this amount will incur a delivery charge of ₹30.
-              </p>
-            </div>
-            <div className="card p-6">
-              <h3 className="text-xl font-semibold mb-2">How do I store the batter?</h3>
-              <p className="text-gray-600 dark:text-gray-300">
-                Keep the batter refrigerated at all times. Let it come to room temperature 
-                for 30 minutes before using for best results.
               </p>
             </div>
           </div>

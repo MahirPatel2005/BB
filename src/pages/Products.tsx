@@ -6,7 +6,7 @@ export function Products() {
     idli: [
       {
         name: 'Udupi Standard Idli Batter - (750ml)',
-        image: 'https://lh3.googleusercontent.com/-v7b1-KZc_mw/YRy5Ek7LT8I/AAAAAAAAB40/AH1Q2i927NUclmmzKfccR6OZ6_WoA7MZQCNcBGAsYHQ/w640-h640/UdupiRavaIdliRecipe.webp',
+        image: 'https://th.bing.com/th/id/OIP.lRuB9j-n52QrRzg9cp5kDAHaHF?rs=1&pid=ImgDetMain',
         description: 'Made from Fine blend of Rice, Sooji (Samolina) and urad dal.',
         price: '₹75.00',
       },
